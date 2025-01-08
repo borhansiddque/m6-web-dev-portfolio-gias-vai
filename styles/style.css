@@ -198,18 +198,21 @@ main {
     border-radius: 16px;
 }
 
-.current-target-card h4 {
+.current-target-card h4,
+.next-target-card-content h4 {
     font-size: 24px;
     font-weight: 800;
     color: #0D1321;
     margin-top: 25px;
 }
 
-.current-target-card p {
+.current-target-card p,
+.next-target-card-content p {
     margin: 10px 0px 20px;
 }
 
-.current-target-card a {
+.current-target-card a,
+.next-target-card-content a {
     font-size: 16px;
     font-weight: 700;
     color: #0D1321;
@@ -226,6 +229,36 @@ main {
 
 .js-card {
     background-color: rgba(255, 221, 0, 0.1);
+}
+
+/* My Next Target Section Style */
+.next-target {
+    margin: 100px 0px 50px;
+}
+
+.next-target-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.next-target-card {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border: 2px solid rgba(13, 19, 33, 0.1);
+    border-radius: 16px;
+}
+
+.next-target-card-img {
+    width: 100px;
+}
+
+.next-target-card-img img {
+    width: 100%;
 }
 
 /* Main Section Style End */
